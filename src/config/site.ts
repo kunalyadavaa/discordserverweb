@@ -67,7 +67,7 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "WarFin",
+  name: "Aivra",
   branding: {
     showLogo: false,
     logo: "https://cdn.discordapp.com/attachments/999961881831800852/1320993917482700870/dbb83ca08e06ca6c038ba0ee60231725.jpg?ex=6774d974&is=677387f4&hm=8ee59a4fbf66304ec73ccb9b65b04b7074b4cde9da904451f7ca5f2b81c49472&",
@@ -99,19 +99,19 @@ export const siteConfig: SiteConfig = {
     staffRoles: ["1078273385857040424"], // Add your actual staff role IDs here
     updateInterval: 60000,
     fallbackStats: {
-      totalMembers: 15000,
-      onlineMembers: 3500,
-      staffOnline: 8,
-      channels: 50,
-      roles: 25,
-      boostLevel: 3,
+      totalMembers: 30,
+      onlineMembers: 5,
+      staffOnline: 3,
+      channels: 5,
+      roles: 8,
+      boostLevel: 5,
       activeEvents: 3
     }
   },
   seo: {
-    title: "WarFin Community",
+    title: "Aivra Community",
     description: "Join our vibrant Discord community",
-    keywords: ["discord", "community", "gaming"],
+    keywords: ["discord", "community", "tech"],
     ogImage: "https://example.com/og-image.jpg"
   },
   layout: {
@@ -121,29 +121,26 @@ export const siteConfig: SiteConfig = {
     sidebarEnabled: false
   },
   content: {
-    welcomeMessage: "Welcome to WarFin Community",
-    longDescription: "Founded in 2021, our community has grown into a thriving hub for enthusiasts, creators, and learners.",
-    serverBio: `Welcome to WarFin - Where Community Meets Innovation!
+    welcomeMessage: "Welcome to Aivra Community",
+    longDescription: "Founded in 2025, our community has grown into a thriving hub for enthusiasts, creators, and learners.",
+    serverBio: `Welcome to Aivra - Where Community Meets Innovation!
 
-Founded in 2021, WarFin has evolved from a small gaming community into a vibrant ecosystem of passionate individuals from all walks of life. Our server is built on the principles of inclusivity, creativity, and genuine connection.
+Welcome to the Avira Community — a space where passionate tech engineers from across Asia come together to connect, collaborate, and grow.
+We’re all about:
 
-What sets us apart:
-• A diverse community spanning multiple time zones
-• Regular events including game nights, movie screenings, and community challenges
-• Dedicated spaces for various interests from gaming to art
-• Active voice channels for real-time interaction
-• Comprehensive role system with unique perks
-• 24/7 active moderation team
+💡 Sharing Knowledge – Exchange ideas, insights, and solutions.
 
-Whether you're here to game, chat, learn, or just hang out, you'll find your place in our community. We pride ourselves on maintaining a welcoming atmosphere where everyone's voice can be heard.
+🤝 Building Connections – Network with like-minded professionals.
 
-Join us in building something special - where every member contributes to our shared story!`,
+🚀 Fostering Innovation – Work together on creative, real-world tech challenges.
+
+Whether you’re a seasoned expert or an aspiring engineer, our community is here to inspire, support, and push you toward your next big breakthrough.`,
     joinButtonText: "Join Server",
     featuredSections: ["events", "roles", "staff"]
   },
   social: {
-    discord: "https://discord.gg/warfin",
-    twitter: "https://twitter.com/warfin",
-    github: "https://github.com/warfin"
+    discord: "https://discord.gg/RkCyDyhfXe",
+    twitter: "https://twitter.com/aivra",
+    github: "https://github.com/aivra"
   }
 } as const;
